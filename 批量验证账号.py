@@ -70,7 +70,7 @@ def process_proxy(account,arkoseToken):
     # 构建cookies字典
     cookies = {
         'xy-arkose-session': 'dnedte03rz9p10d0sb8467z6h7dhc936',
-        'cf_clearance': 'P8YmpP11OTGPeDYC8B7dCqY5vssWnSITIH8afb3XTPk-1713962638-1.0.1.1-O4LzEi6UozvhPRtF8L6l8rAKfpO3M_e_PBu5SUMwh3XJsksy6StGOnS63hzS5t6pr1eVnyEkmgs.ncpvXmOUsA',
+        'cf_clearance': 'k9NDuyyT2oti_o4Owx02QOiD5aiQH3A3G5KRn.IGxZc-1713964812-1.0.1.1-ygafIzPrb2ZImkC_wBzMJJNOTL1KEocCc6rAht0ekQzaBGTmjJcqdXf6QOE5H5hsRsExB71t05fk2eqwzY5YVg',
         'oai-did': '05f3e593-0e07-43ec-be13-fd3371936c6a',
         '_dd_s': 'rum=0&expire=1713961579787',
         'lb-session': '1sy3y5z1000d0sccr3pq19apm04fvlzx',
