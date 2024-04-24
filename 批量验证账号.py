@@ -17,20 +17,10 @@ def arkoseToken():
     return json_data
 
 
-# def accounts():
-#     accounts_file = r"C:\Users\vc\Desktop\一切总和\使用Docker和构建镜像\构建镜像\批量扫号\账号.txt"
-
-#     # 读取账号文件并将账号存入列表
-#     with open(accounts_file, "r", encoding="utf-8") as file:
-#         accounts = file.readlines()
-
-#     return accounts
-
 
 def accounts():
     # 获取当前脚本所在的目录路径
-    current_dir = os.path.dirname(__file__)
-    accounts_file = os.path.join(current_dir, "账号.txt")
+    accounts_file = "账号.txt"
 
     # 读取账号文件并将账号存入列表
     with open(accounts_file, "r", encoding="utf-8") as file:
@@ -70,7 +60,7 @@ def process_proxy(account,arkoseToken):
     # 构建cookies字典
     cookies = {
         'xy-arkose-session': 'dnedte03rz9p10d0sb8467z6h7dhc936',
-        'cf_clearance': 'k9NDuyyT2oti_o4Owx02QOiD5aiQH3A3G5KRn.IGxZc-1713964812-1.0.1.1-ygafIzPrb2ZImkC_wBzMJJNOTL1KEocCc6rAht0ekQzaBGTmjJcqdXf6QOE5H5hsRsExB71t05fk2eqwzY5YVg',
+        'cf_clearance': 'AVIpuqFmeT18dq.fu3KzVRm_IyhTrrtawV2j2IeGyhE-1713965730-1.0.1.1-bWE5tiv5NttQySvK5eKAj3pOW34z5g6IVuDOOKfdxCPNWoQkQ0em5XmP5eWytVu79Qh3fFVXfbcJCMWeiKEFYw',
         'oai-did': '05f3e593-0e07-43ec-be13-fd3371936c6a',
         '_dd_s': 'rum=0&expire=1713961579787',
         'lb-session': '1sy3y5z1000d0sccr3pq19apm04fvlzx',
