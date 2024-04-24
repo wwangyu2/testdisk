@@ -32,6 +32,6 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Actions"
 
-        git add arkoseToken.txt
+        git add -A
         git commit -m "Update arkoseToken"
         git push https://${{ secrets.GH_TOKEN }}@github.com/wwangyu2/test-action.git 
